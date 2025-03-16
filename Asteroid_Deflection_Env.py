@@ -2,12 +2,12 @@
 """
 Asteroid_Deflection_Env.py
 
-This file combines a Pygame-based solar system simulation with an RL agent.
-The RL agent is used to choose the spacecraft’s initial velocity (delta‑v) from a continuous range.
-Once launched, the spacecraft is affected by gravity from the Sun and planets.
-The agent now receives an extended observation including the asteroid's initial position,
-velocity, and mass.
-Modified so that in demo mode the agent picks the best delta‑v for each unique asteroid.
+This filesimulates asteroid deflection using physics and reinforcement learning (RL). 
+The project uses python and uses pygame for visuals. The code simulates gravitational 
+attraction between the sun, planets, asteroids, and the spacecraft. Each episode the 
+RL chooses an initial velocity (delta-v), which is then applied to the spacecraft. 
+After the episode a reward is calculated based on the outcome. After repeated 
+episodes, the AI agent learned the ability to deflect the asteroid.
 """
 
 import sys
