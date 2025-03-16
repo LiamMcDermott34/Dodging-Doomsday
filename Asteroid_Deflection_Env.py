@@ -2,7 +2,7 @@
 """
 Asteroid_Deflection_Env.py
 
-This filesimulates asteroid deflection using physics and reinforcement learning (RL). 
+This file simulates asteroid deflection using physics and reinforcement learning (RL). 
 The project uses python and uses pygame for visuals. The code simulates gravitational 
 attraction between the sun, planets, asteroids, and the spacecraft. Each episode the 
 RL chooses an initial velocity (delta-v), which is then applied to the spacecraft. 
